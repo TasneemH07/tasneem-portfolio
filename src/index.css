@@ -48,3 +48,36 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  animation: gradient 5s ease infinite;
+}
+
+@layer utilities {
+  @keyframes borderSpin {
+    0% {
+      border-image-source: linear-gradient(0deg, rgba(59,130,246,0.5), transparent);
+    }
+    50% {
+      border-image-source: linear-gradient(180deg, rgba(59,130,246,0.5), transparent);
+    }
+    100% {
+      border-image-source: linear-gradient(360deg, rgba(59,130,246,0.5), transparent);
+    }
+  }
+
+  .animate-border-spin {
+    animation: borderSpin 2s linear infinite;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-style: solid;
+    border-image-source: linear-gradient(0deg, rgba(59,130,246,0.5), transparent);
+  }
+}
+
