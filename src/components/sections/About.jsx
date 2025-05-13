@@ -81,22 +81,19 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Frontend Developer at Primathon (March 2024 - Present){" "}
+                    Frontend Developer Intern at FinOwl Technologies (Oct 2024 - March 2025)
                   </h4>
                   <p>
-                    Contributed to design and development of responsive, client-facing web applications with React.js, TypeScript, and SCSS/Tailwind CSS.
+                    Developed responsive, real-time trading interfaces using React.js, TypeScript, and SCSS/Tailwind CSS. Worked closely with designers and backend developers to deliver seamless user experiences and optimize UI performance.
                   </p>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                   Frontend Developer Intern at Primathon (Dec 2023 - March 2024)
+                   Frontend Developer Intern at Primathon (Dec 2023 - Oct 2024)
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                   Contributed to building scalable frontend components with React and Next.js. Integrated RESTful APIs and collaborated with the team to enhance UI consistency, responsiveness, and accessibility.
                   </p>
                 </div>
               </div>
